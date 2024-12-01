@@ -1,0 +1,54 @@
+/* Bio-Data Styling */
+.biodata-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+  }
+  
+  .biodata-container h1 {
+    font-size: 2.5rem;
+    color: #00796b;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .biodata-container p, .biodata-container td, .biodata-container th {
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .biodata-container hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #ddd;
+  }
+  
+  .details, .address, .declaration {
+    line-height: 1.6;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    background: #00796b;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background: #f2f2f2;
+  }
+  
